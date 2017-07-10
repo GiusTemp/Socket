@@ -23,10 +23,10 @@ public class Sender {
 		
 		System.out.println(Thread.currentThread().getName() +
 				" [SENDER] is opening socket at port" + localPort + " and " 
-				+ InetAddress.getLoopbackAddress() + " address"  );
+				+ InetAddress.getLoopbackAddress() + " address!"  );
 		DatagramSocket socket = new DatagramSocket(localPort, address);
 		
-		System.out.println("Insert PORT for dest sock");
+		System.out.println("Insert PORT for dest sock:");
 		tmp=input.readLine();
 		portDest=Integer.parseInt(tmp);
 		
