@@ -16,7 +16,7 @@ public class Receiver {
 		String tmp = null;
 		int localPort=0;
 		
-		System.out.println("Insert PORT for this socket:");
+		//System.out.println("Insert PORT for this socket:");
 		tmp=input.readLine();
 		localPort=Integer.parseInt(tmp);
 		
